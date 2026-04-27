@@ -1,0 +1,35 @@
+{
+  "name": "tradewave",
+  "version": "1.0.0",
+  "description": "🌊 Non-custodial Telegram crypto trading bot powered by Coinbase CDP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "crypto",
+    "trading",
+    "ethereum",
+    "base",
+    "coinbase",
+    "cdp"
+  ],
+  "author": "TradeWave",
+  "license": "MIT",
+  "dependencies": {
+    "grammy": "^1.21.1",
+    "@coinbase/coinbase-sdk": "^0.10.0",
+    "better-sqlite3": "^9.2.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
